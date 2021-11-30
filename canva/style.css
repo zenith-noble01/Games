@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+}
+.scoreContainer{
+    position: fixed;
+    color: white;
+    top: 10px;
+    left: 10px;
+    font-size: 15px;
+    user-select: none;
+}
+.modalContainer{
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal{
+    background: white;
+    max-width: 30%;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+
+}
+.modal h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+.modal p{
+    font-size: 15px;
+    color: #aaa;
+    margin-bottom: 10px;
+}
+.btnContainer{
+    width: 100%;
+}
+.btnContainer button{
+    width: 100%;
+    cursor: pointer;
+    background: blueviolet;
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    border-radius: 50px;
+    color: white;
+}
